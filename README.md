@@ -1,6 +1,6 @@
 # Ceren Doğrul
 
-## GitHub katkı yılanı
+##activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cerendogrul120-byte/cerendogrul120-byte/output/github-contribution-grid-snake-dark.svg" />
