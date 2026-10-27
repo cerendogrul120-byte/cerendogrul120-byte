@@ -20,6 +20,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Improve contribution cell visibility
+        run: |
+          sed -i 's/--cb:#1b1f230a/--cb:#1b1f2333/g' dist/github-contribution-grid-snake.svg
+          sed -i 's/--cb:#1b1f230a/--cb:#ffffff33/g' dist/github-contribution-grid-snake-dark.svg
+
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
